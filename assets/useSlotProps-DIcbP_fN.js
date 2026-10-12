@@ -1,0 +1,1 @@
+import{p as e}from"./Container-DcqKrKb8.js";import{i as t,o as n,s as r}from"./ProductImage-Dy8czhaf.js";function i(i){let{elementType:a,externalSlotProps:o,ownerState:s,skipResolvingSlotProps:c=!1,...l}=i,u=c?{}:n(o,s),{props:d,internalRef:f}=t({...l,externalSlotProps:u}),p=e(f,u?.ref,i.additionalProps?.ref);return r(a,{...d,ref:p},s)}export{i as t};
