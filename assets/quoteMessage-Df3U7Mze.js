@@ -1,0 +1,2 @@
+import{a as e}from"./catalog-BDmv7C4A.js";function t(t,n,r=`Olá! Gostaria de um orçamento dos seguintes itens:`){let i=t.flatMap((t,n)=>{let r=e.get(t.slug);return r?[`${n+1}. ${r.name}${r.brand?` (${r.brand})`:``} – Qtd: ${t.quantity}`]:[]}),a=[[`Nome`,n.name],[`Empresa`,n.company],[`Cidade`,n.city],[`Observações`,n.notes]].filter(([,e])=>e.trim()).map(([e,t])=>`${e}: ${t.trim()}`);return[r,``,...i,...a.length?[``,...a]:[]].join(`
+`)}export{t};

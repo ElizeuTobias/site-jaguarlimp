@@ -1,0 +1,1 @@
+var e=`/site-jaguarlimp/assets/logo-lg-Btw-0Lmc.webp`;export{e as t};
